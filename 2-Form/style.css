@@ -1,0 +1,50 @@
+body {
+  background-color: #f39494;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+main {
+  background-color: #fffefe;
+}
+h1 {
+  color: #333333;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+p,
+label {
+  color: #666666;
+}
+
+h1 + p {
+  font-size: 18px;
+}
+
+#fname,
+#lname,
+#email,
+#terms {
+  background-color: #f5f5f5;
+}
+
+input[name="username"] {
+  color: #333333;
+  font-weight: 700;
+}
+
+label,
+label + a {
+  font-size: 14px;
+}
+
+a {
+  color: #089fe0;
+}
+
+button {
+  background-color: #089fe0;
+  color: #ffffff;
+  font-size: 18px;
+}
