@@ -2,7 +2,69 @@
   color: #fff;
   font-family: "Roboto";
   font-weight: 400;
+}
+
+body {
   background-color: #374151;
+}
+
+header a {
+  text-decoration: none;
+}
+
+nav {
+  padding: 72px 180px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0;
+  background-color: transparent;
+  height: 40px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 38px;
+  margin: 0;
+}
+
+main {
+  padding: 0 180px 84px 180px;
+}
+
+section > div:first-child,
+article p:nth-child(-n + 2) {
+  margin-bottom: 30px;
+}
+
+section > div:nth-child(2) {
+  margin-bottom: 28px;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  padding: 0 180px 77px 180px;
+}
+
+.search img {
+  margin-right: 17px;
+}
+
+.search {
+  background-color: #283241;
+  border-radius: 100px;
+  height: 40px;
+  padding-left: 18px;
 }
 
 .descriptor {
@@ -12,11 +74,6 @@
 
 .logo {
   font-size: 18px;
-}
-
-.header {
-  font-size: 24px;
-  line-height: 38px;
 }
 
 .navMenu,
@@ -39,6 +96,10 @@
   line-height: 30px;
 }
 
-.bgSearch {
-  background-color: #283241;
+.titleH1 {
+  margin-bottom: 14px;
+}
+
+[alt="main_img"] {
+  margin-bottom: 69px;
 }
