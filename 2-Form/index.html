@@ -4,33 +4,48 @@
     <meta charset="utf-8" />
     <title>title</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="js.js"></script>
   </head>
   <body>
-    <main>
-      <h1>Регистрация</h1>
-      <p>Уже есть аккаунт? <a href="#">Войти </a></p>
-      <form action="#">
-        <div>
+    <main class="reg-container">
+      <form action="#" class="reg-form">
+        <div class="reg-title reg-group">
+          <h1>Регистрация</h1>
+          <p>Уже есть аккаунт? <a href="#">Войти </a></p>
+        </div>
+        <div class="reg-group reg-username">
           <input type="text" placeholder="Моя компания" title="Введите название
-          компании" name="username" id=username" minlength="2" required/>
+          компании" name="username" id=username" minlength='2'" required/>
         </div>
-        <div>
-          <input type="text" placeholder="Имя" name="fname" id="fname" />
-          <input type="text" placeholder="Фамилия" name="lname" id="lname" />
+        <div class="reg-group reg-group-fname-lname">
+          <input
+            type="text"
+            placeholder="Имя"
+            name="fname"
+            id="fname"
+            class="fname"
+          />
+          <input
+            type="text"
+            placeholder="Фамилия"
+            name="lname"
+            id="lname"
+            class="lname"
+          />
         </div>
-        <div>
+        <div class="reg-group">
           <input
             type="email"
-            placeholder="Email"
+            placeholder="E-mail"
             name="email"
             id="email"
             required
           />
         </div>
-        <button type="submit">
+        <button type="submit" class="submit-btn">
           Зарегистрироваться <img src="images/Arrow 1.png" alt="Arrow" />
         </button>
-        <div>
+        <div class="reg-group reg-terms">
           <input type="checkbox" name="terms" id="terms" required />
           <label for="terms">Я прочитал и принимаю </label>
           <a href="#">Условия использования</a>
